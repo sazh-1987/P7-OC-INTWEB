@@ -1,5 +1,5 @@
-/*  */
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Navbar() {
     return (
@@ -7,8 +7,8 @@ function Navbar() {
             <div className="navbar__logo">
                 <img src="logo.svg" alt="logo du site Kasa" />
             </div>
-            <div>Accueil</div>
-            <div>A propos</div>
+            <NavLink to="/">Accueil</NavLink>
+            <NavLink to="/about">A propos</NavLink>
         </nav>
     )
 }
