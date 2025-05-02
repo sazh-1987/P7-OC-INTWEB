@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 86%;
+    margin: 30px auto;
+        @media (max-width: 768px) {
+            gap: 10px;
+            font-size: 12px;
+        }
+
+    a { 
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .navbar__logo{
+        margin-right: auto;
+
+        img {
+            @media (max-width: 768px) {
+                width: 145px;
+                height: 47px;
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.collapse-wrapper {
+    margin-bottom: 20px;
+  }
+  
+  .collapse-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff6060;
+    color: #FFFFFF;
+    font-weight: 700;
+    border-radius: 5px;
+    height: 54px;
+    line-height: 54px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 0;
+  
+    & i,
+    & span {
+      color: #FFFFFF;
+      padding: 0 20px;
+    }
+  
+    i {
+      transition: transform 0.5s ease;
+    }
+  
+    i.rotate {
+      transform: rotate(180deg);
+    }
+  }
+  
+  .collapse-description {
+    background-color: #f6f6f6;
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #000000;
+    border-radius: 0 0 5px 5px;
+    margin-top: -1px;
+}

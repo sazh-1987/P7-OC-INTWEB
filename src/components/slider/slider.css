@@ -1,0 +1,27 @@
+.slider {
+  width: 86%;
+  height: 415px;
+  margin: 0 auto;
+  position: relative;
+}
+.slider img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.slider .arrows {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.slider .arrowLeft {
+  font-size: 50px;
+  rotate: 270deg;
+}
+.slider .arrowRight {
+  font-size: 50px;
+  rotate: 90deg;
+}/*# sourceMappingURL=slider.css.map */

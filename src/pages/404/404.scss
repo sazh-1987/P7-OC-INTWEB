@@ -1,0 +1,46 @@
+.error404 {
+    text-align: center;
+    margin: 0 0 100px 0;
+
+    h1 {
+        font-size: 288px;
+        color: #ff6060;
+        margin: 0;
+        font-weight: 700;
+        margin: 0 0 40px 0;
+
+        @media (max-width: 768px) {
+            font-size: 96px;
+        }
+    }
+
+    p {
+        font-size: 36px;
+        margin-bottom: 30px;
+        color: #ff6060;
+        font-weight: 500;
+        margin: 0 0 100px 0;
+
+        @media (max-width: 768px) {
+            font-size: 18px;
+            width: 260px;
+            margin: 0 auto 100px auto ;
+        }
+    }
+
+    a {
+        font-size: 18px;
+        color: #000000;
+        font-weight: bold;
+        border-bottom: 1px solid transparent;
+        transition: border-bottom 0.3s ease;
+
+        @media (max-width: 768px) {
+            font-size: 14px;
+        }
+
+        &:hover {
+            border-bottom: 1px solid #ff6060;
+        }
+    }
+}

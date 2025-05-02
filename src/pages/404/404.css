@@ -1,0 +1,27 @@
+.error404 {
+  text-align: center;
+  margin: 0 0 100px 0;
+}
+.error404 h1 {
+  font-size: 288px;
+  color: #ff6060;
+  margin: 0;
+  font-weight: 700;
+  margin: 0 0 40px 0;
+}
+.error404 p {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #ff6060;
+  font-weight: 500;
+  margin: 0 0 100px 0;
+}
+.error404 a {
+  color: #000000;
+  font-weight: bold;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s ease;
+}
+.error404 a:hover {
+  border-bottom: 1px solid #ff6060;
+}/*# sourceMappingURL=404.css.map */
