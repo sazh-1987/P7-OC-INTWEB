@@ -11,9 +11,6 @@ const bannerImg = {
 
 function About() {
     return (
-
-        
-
         <>  
             <Navbar />
             <Banner style={bannerImg} className="about-banner" />

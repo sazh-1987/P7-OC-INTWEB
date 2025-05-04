@@ -10,9 +10,9 @@ function Collapse({ name, className, description }) {
 
     return (
         <div className="collapse-wrapper">
-            <div className={`${className} collapse-container`} onClick={toggleCollapse}>
+            <div className={`${className} collapse-container`}>
                 <span>{name}</span>
-                <i className={`fa-solid fa-angle-up ${isOpen ? 'rotate' : ''}`}></i>
+                <i className={`fa-solid fa-angle-up ${isOpen ? 'rotate' : ''}`} onClick={toggleCollapse}></i>
             </div>
             {isOpen && <p className="collapse-description">{description}</p>}
         </div>

@@ -20,18 +20,16 @@ function Slider({ images }) {
         <div className="slider">
             <img src={images[currentIndex]} alt={`slide ${currentIndex + 1}`} />
 
-            {/* Toujours afficher le span avec l'index / total */}
-            <div className="arrows">
-                {images.length > 1 && (
+            {/* Affiche les flèches seulement s'il y a plus d'une image */}
+            {images.length > 1 && (
+                <div className="arrows">
                     <i className="fa-solid fa-chevron-left arrowLeft" onClick={goToPrevious}></i>
-                )}
+                    
+                    <span className="slider__counter">{currentIndex + 1} / {images.length}</span>
 
-                <span>{currentIndex + 1} / {images.length}</span>
-
-                {images.length > 1 && (
                     <i className="fa-solid fa-chevron-right arrowRight" onClick={goToNext}></i>
-                )}
-            </div>
+                </div>
+            )}
         </div>
     )
 }

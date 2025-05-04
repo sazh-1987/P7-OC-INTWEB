@@ -1,12 +1,8 @@
 .about-banner {
-    width: 71%;
+    width: 86%;
     margin: 30px auto;
     display: flex;
     flex-direction: column;
-
-    @media (max-width: 768px) {
-        width: 86%;
-    }
 }
 
 .about-banner {
