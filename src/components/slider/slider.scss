@@ -15,20 +15,33 @@
     }
 
     .arrows {
-        position: absolute;
-        top: 40%;
         width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
 
-    .arrowLeft {
+        .arrowLeft {
+        position: absolute;
+        left: 1%;
+        top: 45%;
         font-size: 50px;
         color: #FFFFFF;
+        cursor: pointer;
+        }
+
+        .arrowRight {
+            position: absolute;
+            right: 1%;
+            top: 45%;
+            font-size: 50px;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        span {
+            position: absolute;
+            right: 50%;
+            bottom: 8%;
+            color: #FFFFFF;
+        }
     }
 
-    .arrowRight {
-        font-size: 50px;
-        color: #FFFFFF;
-    }
+    
 }
