@@ -4,6 +4,11 @@
   margin: 0 auto;
   position: relative;
 }
+@media (max-width: 768px) {
+  .slider {
+    height: 255px;
+  }
+}
 .slider img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -11,17 +16,32 @@
   height: 100%;
 }
 .slider .arrows {
-  position: absolute;
-  top: 40%;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
 }
-.slider .arrowLeft {
+.slider .arrows .arrowLeft {
+  position: absolute;
+  left: 1%;
+  top: 45%;
   font-size: 50px;
-  rotate: 270deg;
+  color: #FFFFFF;
+  cursor: pointer;
 }
-.slider .arrowRight {
+.slider .arrows .arrowRight {
+  position: absolute;
+  right: 1%;
+  top: 45%;
   font-size: 50px;
-  rotate: 90deg;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.slider .arrows span {
+  position: absolute;
+  right: 50%;
+  bottom: 8%;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+  .slider .slider__counter {
+    display: none;
+  }
 }/*# sourceMappingURL=slider.css.map */

@@ -5,10 +5,22 @@
   width: 86%;
   margin: 30px auto;
 }
+@media (max-width: 768px) {
+  .navbar {
+    gap: 10px;
+    font-size: 12px;
+  }
+}
 .navbar a {
   text-decoration: none;
   color: #000000;
 }
 .navbar .navbar__logo {
   margin-right: auto;
+}
+@media (max-width: 768px) {
+  .navbar .navbar__logo img {
+    width: 145px;
+    height: 47px;
+  }
 }/*# sourceMappingURL=navbar.css.map */

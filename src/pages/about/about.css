@@ -1,6 +1,23 @@
-.about {
-  width: 71%;
+.about-banner {
+  width: 86%;
   margin: 30px auto;
   display: flex;
   flex-direction: column;
+}
+
+.about-banner {
+  position: relative;
+}
+.about-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  border-radius: 25px;
+}
+
+.about {
+  width: 86%;
+  margin: 0 auto;
 }/*# sourceMappingURL=about.css.map */

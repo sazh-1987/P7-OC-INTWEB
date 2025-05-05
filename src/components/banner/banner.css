@@ -9,10 +9,8 @@
   background-size: cover;
   border-radius: 25px;
 }
-.banner h1 {
-  color: #FFFFFF;
-  font-weight: 700;
-  font-size: 48px;
-  letter-spacing: 0%;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+@media (max-width: 768px) {
+  .banner {
+    height: 111px;
+  }
 }/*# sourceMappingURL=banner.css.map */

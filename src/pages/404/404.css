@@ -9,6 +9,11 @@
   font-weight: 700;
   margin: 0 0 40px 0;
 }
+@media (max-width: 768px) {
+  .error404 h1 {
+    font-size: 96px;
+  }
+}
 .error404 p {
   font-size: 36px;
   margin-bottom: 30px;
@@ -16,11 +21,24 @@
   font-weight: 500;
   margin: 0 0 100px 0;
 }
+@media (max-width: 768px) {
+  .error404 p {
+    font-size: 18px;
+    width: 260px;
+    margin: 0 auto 100px auto;
+  }
+}
 .error404 a {
+  font-size: 18px;
   color: #000000;
   font-weight: bold;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.3s ease;
+}
+@media (max-width: 768px) {
+  .error404 a {
+    font-size: 14px;
+  }
 }
 .error404 a:hover {
   border-bottom: 1px solid #ff6060;

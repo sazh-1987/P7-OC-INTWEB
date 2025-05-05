@@ -1,1 +1,25 @@
-/*# sourceMappingURL=index.css.map */
+.banner {
+  position: relative;
+}
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  border-radius: 25px;
+}
+.banner h1 {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 48px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 2;
+  margin: 0 10px;
+}
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 24px;
+  }
+}/*# sourceMappingURL=index.css.map */
