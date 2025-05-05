@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './collapse.scss'
 
-function Collapse({ name, className, description }) {
+function Collapse({ name, description }) {
     const [isOpen, setIsOpen] = useState(false)
 
     const toggleCollapse = () => {
@@ -10,7 +10,7 @@ function Collapse({ name, className, description }) {
 
     return (
         <div className="collapse-wrapper">
-            <div className={`${className} collapse-container`}>
+            <div className={'collapse-container'}>
                 <span>{name}</span>
                 <i className={`fa-solid fa-angle-up ${isOpen ? 'rotate' : ''}`} onClick={toggleCollapse}></i>
             </div>

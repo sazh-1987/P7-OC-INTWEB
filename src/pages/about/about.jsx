@@ -5,15 +5,12 @@ import Banner from "../../components/banner/banner.jsx"
 import Collapse from "../../components/collapse/collapse.jsx"
 import "./about.scss"
 
-const bannerImg = {
-    backgroundImage: 'url("https://s3-alpha-sig.figma.com/img/56fa/e17e/b9995860bb6384a77ca7dc9bf52da3be?Expires=1745798400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ZXIrv4gghiJPPc3y56HiLeR08x2FvaLuty86UC3LIMZ3zlu2nuPC892Su~V0QRwFxciKx0Z9qbqZKzn-kU21TwUPbKn9aY1hKjWXVNDFrTWFeZB8CyJahHmkcmoJYVykU3mG9MsRYGckLAbYFB1~qR2atrv2Y80XlJa4gY09MrFhPPmRJ9q~-F3nRqVbQDgfripq~2boTL3vyWcbKlA6-oR3WSM6yJ-qCr434687i384bq5NPIyu1n7FZkwZXoFFkPy5cXYGGcyJkOWqbwO2VpJLILw4DdCodCP2eJI6rRMUJ2YlQWL9rqsIdElLWgOJbQRhOMy4wb-JzQJoOySRHw__")',
-}
 
 function About() {
     return (
         <>  
             <Navbar />
-            <Banner style={bannerImg} className="about-banner" />
+            <Banner style={{backgroundImage: 'url("/bannerAbout.jpg")'}} className="about-banner" />
             <div className="about">
                 <Collapse name="Fiabilité" 
                     description="Les annonces postées sur Kasa garantissent une fiabilité totale.

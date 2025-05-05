@@ -6,7 +6,6 @@ import "./details.scss"
 import Collapse from "../../components/collapse/collapse.jsx"
 import { useParams, Navigate } from 'react-router-dom'
 import Appartment from '../../assets/file.jsx'
-import Error404 from '../404/404.jsx'
 
 function Details() {
 
@@ -57,13 +56,13 @@ function Details() {
 
                 <div className="collapsecontainer">
                     <div className="collapsesize">
-                        <Collapse name="Description" className="displayNone" 
+                        <Collapse name="Description"
                             description={logement.description}
                         />
                     </div>
                     
                     <div className="collapsesize">
-                        <Collapse name="Équipements" className="displayNone" 
+                        <Collapse name="Équipements"
                             description={logement.equipments.join(', ')}
                         />
                     </div>
